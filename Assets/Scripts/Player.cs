@@ -6,7 +6,8 @@ public class Player : MonoBehaviour {
 	public enum States {
 		Solid,
 		Liquid,
-		Gas
+		Gas,
+		Win
 	}
 	public States state = States.Solid;
 	[System.Serializable]
@@ -66,7 +67,8 @@ public class Player : MonoBehaviour {
 		while (state == States.Solid) {
 			yield return 0;
 			float h = Input.GetAxis ("Horizontal");
-			Vector3 force = Vector3.ClampMagnitude(Vector3.right * h * settings [(int)state].force, maxVelocity);
+			Vector3 force = Vector3.right * h * settings [(int)state].force;
+			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
 			rb.AddForce(force);
 
 			if (!jumping && Input.GetKeyDown (jumpButton)) {
@@ -87,7 +89,8 @@ public class Player : MonoBehaviour {
 		while (state == States.Liquid) {
 			yield return 0;
 			float h = Input.GetAxis ("Horizontal");
-			Vector3 force = Vector3.ClampMagnitude(Vector3.right * h * settings [(int)state].force, maxVelocity);
+			Vector3 force = Vector3.right * h * settings [(int)state].force;
+			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
 			rb.AddForce(force);
 
 			if (Input.GetKeyDown (settings[(int)States.Solid].button)) {
@@ -104,7 +107,8 @@ public class Player : MonoBehaviour {
 		while (state == States.Gas) {
 			yield return 0;
 			float h = Input.GetAxis ("Horizontal");
-			Vector3 force = Vector3.up * settings [(int)state].force + Vector3.ClampMagnitude(Vector3.right * h * settings [(int)state].force, maxVelocity);
+			Vector3 force = Vector3.up * settings [(int)state].force + Vector3.right * h * settings [(int)state].force;
+			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
 			rb.AddForce(force);
 
 			if (Input.GetKeyDown (settings[(int)States.Solid].button)) {
@@ -116,8 +120,18 @@ public class Player : MonoBehaviour {
 		}
 	}
 
+	public void SetWin() {
+		ChangeState (States.Win);
+	}
+
+	IEnumerator Win() {
+		while (state == States.Win) {
+			yield return 0;
+		}
+	}
+
 	void OnCollisionStay2D(Collision2D other) {
-		if (other.gameObject.CompareTag("Ground") && other.transform.position.y < transform.position.y) {
+		if (other.transform.position.y < transform.position.y) {
 			jumping = false;
 		}
 	}
