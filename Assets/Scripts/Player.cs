@@ -10,6 +10,8 @@ public class Player : MonoBehaviour {
 		Win
 	}
 	public States state = States.Solid;
+	public AudioStates audioStates;
+
 	[System.Serializable]
 	public struct StateSettings
 	{
@@ -20,10 +22,10 @@ public class Player : MonoBehaviour {
 		public float linearDrag;
 		public float angularDrag;
 		public float gravityScale;
+		public float maxVelocity;
 		public GameObject gameObject;
 	};
 
-	public float maxVelocity;
 	public KeyCode jumpButton;
 	public float jumpPower;
 	public StateSettings[] settings;
@@ -33,11 +35,11 @@ public class Player : MonoBehaviour {
 
 	void Start () {
 		rb = GetComponent<Rigidbody2D>();
-		ChangeState (state);
 		StartCoroutine (FSM());
 	}
 
 	IEnumerator FSM() {
+		ChangeState (state);
 		while (true) {
 			yield return StartCoroutine(state.ToString());
 		}
@@ -45,6 +47,7 @@ public class Player : MonoBehaviour {
 
 	void ChangeState(States newState) {
 		state = newState;
+		StartCoroutine(audioStates.ChangeState (newState));
 	}
 
 	void UpdateSettings() {
@@ -68,7 +71,7 @@ public class Player : MonoBehaviour {
 			yield return 0;
 			float h = Input.GetAxis ("Horizontal");
 			Vector3 force = Vector3.right * h * settings [(int)state].force;
-			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
+			rb.velocity = Vector3.ClampMagnitude(rb.velocity, settings [(int)state].maxVelocity);
 			rb.AddForce(force);
 
 			if (!jumping && Input.GetKeyDown (jumpButton)) {
@@ -90,7 +93,7 @@ public class Player : MonoBehaviour {
 			yield return 0;
 			float h = Input.GetAxis ("Horizontal");
 			Vector3 force = Vector3.right * h * settings [(int)state].force;
-			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
+			rb.velocity = Vector3.ClampMagnitude(rb.velocity, settings [(int)state].maxVelocity);
 			rb.AddForce(force);
 
 			if (Input.GetKeyDown (settings[(int)States.Solid].button)) {
@@ -108,7 +111,7 @@ public class Player : MonoBehaviour {
 			yield return 0;
 			float h = Input.GetAxis ("Horizontal");
 			Vector3 force = Vector3.up * settings [(int)state].force + Vector3.right * h * settings [(int)state].force;
-			rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
+			rb.velocity = Vector3.ClampMagnitude(rb.velocity, settings [(int)state].maxVelocity);
 			rb.AddForce(force);
 
 			if (Input.GetKeyDown (settings[(int)States.Solid].button)) {
