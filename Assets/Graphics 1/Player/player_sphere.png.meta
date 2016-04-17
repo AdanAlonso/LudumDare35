@@ -1,0 +1,1318 @@
+fileFormatVersion: 2
+guid: 44969ce5ad7467149a1a591d4bd2991e
+timeCreated: 1460899523
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: player_sphere_0
+    21300002: player_sphere_1
+    21300004: player_sphere_2
+    21300006: player_sphere_3
+    21300008: player_sphere_4
+    21300010: player_sphere_5
+    21300012: player_sphere_6
+    21300014: player_sphere_7
+    21300016: player_sphere_8
+    21300018: player_sphere_9
+    21300020: player_sphere_10
+    21300022: player_sphere_11
+    21300024: player_sphere_12
+    21300026: player_sphere_13
+    21300028: player_sphere_14
+    21300030: player_sphere_15
+    21300032: player_sphere_16
+    21300034: player_sphere_17
+    21300036: player_sphere_18
+    21300038: player_sphere_19
+    21300040: player_sphere_20
+    21300042: player_sphere_21
+    21300044: player_sphere_22
+    21300046: player_sphere_23
+    21300048: player_sphere_24
+    21300050: player_sphere_25
+    21300052: player_sphere_26
+    21300054: player_sphere_27
+    21300056: player_sphere_28
+    21300058: player_sphere_29
+    21300060: player_sphere_30
+    21300062: player_sphere_31
+    21300064: player_sphere_32
+    21300066: player_sphere_33
+    21300068: player_sphere_34
+    21300070: player_sphere_35
+    21300072: player_sphere_36
+    21300074: player_sphere_37
+    21300076: player_sphere_38
+    21300078: player_sphere_39
+    21300080: player_sphere_40
+    21300082: player_sphere_41
+    21300084: player_sphere_42
+    21300086: player_sphere_43
+    21300088: player_sphere_44
+    21300090: player_sphere_45
+    21300092: player_sphere_46
+    21300094: player_sphere_47
+    21300096: player_sphere_48
+    21300098: player_sphere_49
+    21300100: player_sphere_50
+    21300102: player_sphere_51
+    21300104: player_sphere_52
+    21300106: player_sphere_53
+    21300108: player_sphere_54
+    21300110: player_sphere_55
+    21300112: player_sphere_56
+    21300114: player_sphere_57
+    21300116: player_sphere_58
+    21300118: player_sphere_59
+    21300120: player_sphere_60
+    21300122: player_sphere_61
+    21300124: player_sphere_62
+    21300126: player_sphere_63
+    21300128: player_sphere_64
+    21300130: player_sphere_65
+    21300132: player_sphere_66
+    21300134: player_sphere_67
+    21300136: player_sphere_68
+    21300138: player_sphere_69
+    21300140: player_sphere_70
+    21300142: player_sphere_71
+    21300144: player_sphere_72
+    21300146: player_sphere_73
+    21300148: player_sphere_74
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: player_sphere_2
+      rect:
+        serializedVersion: 2
+        x: 2302
+        y: 1405
+        width: 387
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.80371, y: 96.785706}
+        - {x: -46.80371, y: 94.785706}
+        - {x: -62.80371, y: 63.785706}
+        - {x: -61.80371, y: 58.785706}
+        - {x: -58.80371, y: 57.785706}
+        - {x: -32.80371, y: 69.785706}
+        - {x: -49.80371, y: 58.785706}
+        - {x: -53.80371, y: 55.785706}
+        - {x: -90.80371, y: 32.785706}
+        - {x: -90.80371, y: -44.214294}
+        - {x: -47.80371, y: -96.214294}
+        - {x: 50.19629, y: -96.214294}
+        - {x: 91.19629, y: -61.214294}
+        - {x: 91.19629, y: 72.785706}
+        - {x: 87.19629, y: 96.785706}
+      - - {x: -58.80371, y: 45.785706}
+        - {x: -55.80371, y: 46.785706}
+        - {x: -55.80371, y: 49.785706}
+        - {x: -58.80371, y: 50.785706}
+        - {x: -60.80371, y: 48.785706}
+    - name: player_sphere_3
+      rect:
+        serializedVersion: 2
+        x: 2813
+        y: 1405
+        width: 400
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.47925, y: 100.285706}
+        - {x: 15.479248, y: 100.285706}
+        - {x: -45.520752, y: 95.285706}
+        - {x: -69.52075, y: 53.285706}
+        - {x: -58.520752, y: 53.285706}
+        - {x: -34.520752, y: 66.285706}
+        - {x: -49.520752, y: 55.285706}
+        - {x: -63.520752, y: 51.285706}
+        - {x: -93.52075, y: 56.285706}
+        - {x: -93.52075, y: -71.714294}
+        - {x: -48.520752, y: -99.714294}
+        - {x: 42.479248, y: -99.714294}
+        - {x: 49.479248, y: -97.714294}
+        - {x: 90.47925, y: -48.714294}
+        - {x: 90.47925, y: 98.285706}
+      - - {x: 92.47925, y: -6.7142944}
+        - {x: 94.47925, y: -8.714294}
+        - {x: 95.47925, y: -8.714294}
+        - {x: 95.47925, y: -2.7142944}
+        - {x: 92.47925, y: -3.7142944}
+      - - {x: 91.47925, y: 12.285706}
+        - {x: 94.47925, y: 13.285706}
+        - {x: 94.47925, y: 16.285706}
+        - {x: 91.47925, y: 17.285706}
+        - {x: 89.47925, y: 15.285706}
+      - - {x: -61.520752, y: 43.285706}
+        - {x: -59.520752, y: 41.285706}
+        - {x: -56.520752, y: 42.285706}
+        - {x: -56.520752, y: 45.285706}
+        - {x: -58.520752, y: 47.285706}
+        - {x: -61.520752, y: 46.285706}
+    - name: player_sphere_5
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1416
+        width: 383
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.371384, y: 65.44739}
+        - {x: 45.371384, y: 65.44739}
+        - {x: 44.371384, y: 67.44739}
+        - {x: 59.371384, y: 63.447388}
+        - {x: 62.371384, y: 70.44739}
+        - {x: 60.371384, y: 88.44739}
+        - {x: 53.371384, y: 93.44739}
+        - {x: -65.62862, y: 93.44739}
+        - {x: -89.62862, y: 39.447388}
+        - {x: -89.62862, y: -71.55261}
+        - {x: -54.628616, y: -92.55261}
+        - {x: 67.37138, y: -92.55261}
+        - {x: 91.37138, y: -71.55261}
+        - {x: 91.37138, y: 49.447388}
+      - - {x: 16.371384, y: 63.447388}
+        - {x: 19.371384, y: 64.44739}
+        - {x: 19.371384, y: 67.44739}
+        - {x: 16.371384, y: 68.44739}
+        - {x: 14.371384, y: 66.44739}
+    - name: player_sphere_6
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1416
+        width: 383
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.17615, y: 91.94739}
+        - {x: -73.17615, y: 55.947388}
+        - {x: -68.17615, y: 54.947388}
+        - {x: -66.17615, y: 54.947388}
+        - {x: -45.176147, y: 68.94739}
+        - {x: -65.17615, y: 54.947388}
+        - {x: -73.17615, y: 53.947388}
+        - {x: -90.17615, y: 62.947388}
+        - {x: -90.17615, y: -77.05261}
+        - {x: -45.176147, y: -91.05261}
+        - {x: 66.82385, y: -91.05261}
+        - {x: 90.82385, y: -55.052612}
+        - {x: 90.82385, y: 35.947388}
+        - {x: 67.82385, y: 91.94739}
+      - - {x: 15.823853, y: 64.94739}
+        - {x: 18.823853, y: 65.94739}
+        - {x: 18.823853, y: 68.94739}
+        - {x: 15.823853, y: 69.94739}
+        - {x: 13.823853, y: 67.94739}
+    - name: player_sphere_7
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1408
+        width: 387
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.00128, y: 94.19348}
+        - {x: -66.00128, y: 62.19348}
+        - {x: -66.00128, y: 58.19348}
+        - {x: -63.00128, y: 57.19348}
+        - {x: -37.00128, y: 70.19348}
+        - {x: -54.00128, y: 61.19348}
+        - {x: -83.00128, y: 43.19348}
+        - {x: -88.00128, y: 29.193481}
+        - {x: -91.00128, y: 19.193481}
+        - {x: -91.00128, y: -25.806519}
+        - {x: -83.00128, y: -56.80652}
+        - {x: -54.00128, y: -92.80652}
+        - {x: 79.99872, y: -92.80652}
+        - {x: 91.99872, y: -59.80652}
+        - {x: 91.99872, y: 61.19348}
+        - {x: 73.99872, y: 94.19348}
+      - - {x: 17.998718, y: 66.19348}
+        - {x: 18.998718, y: 63.19348}
+        - {x: 21.998718, y: 63.19348}
+        - {x: 23.998718, y: 65.19348}
+        - {x: 22.998718, y: 68.19348}
+        - {x: 19.998718, y: 68.19348}
+    - name: player_sphere_8
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1644
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_9
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1403
+        width: 393
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -72.28699, y: 94.34723}
+        - {x: -67.28699, y: 59.34723}
+        - {x: -64.28699, y: 58.34723}
+        - {x: -62.286987, y: 58.34723}
+        - {x: -42.286987, y: 70.34723}
+        - {x: -53.286987, y: 60.34723}
+        - {x: -58.286987, y: 53.34723}
+        - {x: -57.286987, y: 48.34723}
+        - {x: -54.286987, y: 43.34723}
+        - {x: -52.286987, y: 43.34723}
+        - {x: -61.286987, y: 44.34723}
+        - {x: -71.28699, y: 58.34723}
+        - {x: -92.28699, y: 31.347229}
+        - {x: -92.28699, y: -92.65277}
+        - {x: -86.28699, y: -93.65277}
+        - {x: 92.71301, y: -93.65277}
+        - {x: 92.71301, y: 94.34723}
+      - - {x: -64.28699, y: 48.34723}
+        - {x: -61.286987, y: 45.34723}
+        - {x: -58.286987, y: 46.34723}
+        - {x: -58.286987, y: 49.34723}
+        - {x: -59.286987, y: 51.34723}
+        - {x: -62.286987, y: 51.34723}
+        - {x: -64.28699, y: 50.34723}
+      - - {x: 19.713013, y: 61.34723}
+        - {x: 22.713013, y: 62.34723}
+        - {x: 22.713013, y: 65.34723}
+        - {x: 19.713013, y: 66.34723}
+        - {x: 17.713013, y: 64.34723}
+    - name: player_sphere_10
+      rect:
+        serializedVersion: 2
+        x: 3212
+        y: 1653
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_11
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 1405
+        width: 386
+        height: 421
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.99182, y: 91.285706}
+        - {x: -62.99182, y: 60.285706}
+        - {x: -60.99182, y: 53.285706}
+        - {x: -32.99182, y: 67.285706}
+        - {x: -48.99182, y: 58.285706}
+        - {x: -90.99182, y: 33.285706}
+        - {x: -90.99182, y: -60.714294}
+        - {x: -76.99182, y: -95.714294}
+        - {x: -60.99182, y: -98.714294}
+        - {x: 70.00818, y: -98.714294}
+        - {x: 91.00818, y: -70.714294}
+        - {x: 91.00818, y: 59.285706}
+        - {x: 86.00818, y: 91.285706}
+      - - {x: -59.99182, y: 44.285706}
+        - {x: -57.99182, y: 42.285706}
+        - {x: -54.99182, y: 43.285706}
+        - {x: -54.99182, y: 46.285706}
+        - {x: -56.99182, y: 48.285706}
+        - {x: -59.99182, y: 47.285706}
+      - - {x: 80.00818, y: 99.285706}
+        - {x: 74.00818, y: 97.285706}
+        - {x: 74.00818, y: 92.285706}
+        - {x: 76.00818, y: 88.285706}
+        - {x: 87.00818, y: 88.285706}
+        - {x: 89.00818, y: 93.285706}
+        - {x: 89.00818, y: 97.285706}
+        - {x: 87.00818, y: 99.285706}
+    - name: player_sphere_12
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 1404
+        width: 386
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -56.23181, y: 90.81647}
+        - {x: -65.23181, y: 54.816467}
+        - {x: -62.23181, y: 51.816467}
+        - {x: -39.23181, y: 65.81647}
+        - {x: -85.23181, y: 35.816467}
+        - {x: -90.23181, y: 27.816467}
+        - {x: -90.23181, y: -30.183533}
+        - {x: -87.23181, y: -53.183533}
+        - {x: -63.23181, y: -87.18353}
+        - {x: -39.23181, y: -98.18353}
+        - {x: 50.76819, y: -98.18353}
+        - {x: 91.76819, y: -61.183533}
+        - {x: 91.76819, y: 75.81647}
+        - {x: 88.76819, y: 90.81647}
+      - - {x: -61.23181, y: 44.816467}
+        - {x: -60.23181, y: 41.816467}
+        - {x: -57.23181, y: 41.816467}
+        - {x: -55.23181, y: 43.816467}
+        - {x: -56.23181, y: 46.816467}
+        - {x: -59.23181, y: 46.816467}
+    - name: player_sphere_13
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 1632
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_14
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 1646
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_15
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 1640
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_16
+      rect:
+        serializedVersion: 2
+        x: 4273
+        y: 1636
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_17
+      rect:
+        serializedVersion: 2
+        x: 2710
+        y: 1619
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_18
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 1623
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_19
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 1634
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_20
+      rect:
+        serializedVersion: 2
+        x: 3761
+        y: 1609
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_21
+      rect:
+        serializedVersion: 2
+        x: 4307
+        y: 1615
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_22
+      rect:
+        serializedVersion: 2
+        x: 3736
+        y: 1589
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_23
+      rect:
+        serializedVersion: 2
+        x: 4243
+        y: 1584
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_24
+      rect:
+        serializedVersion: 2
+        x: 4259
+        y: 1560
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_25
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 1568
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_26
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 1571
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_27
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1556
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_28
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 1557
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_29
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 826
+        width: 385
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.3518, y: 95.09433}
+        - {x: -68.3518, y: 59.09433}
+        - {x: -64.3518, y: 57.09433}
+        - {x: -60.3518, y: 57.09433}
+        - {x: -48.3518, y: 67.09433}
+        - {x: -52.3518, y: 64.09433}
+        - {x: -71.3518, y: 48.09433}
+        - {x: -90.3518, y: 36.09433}
+        - {x: -90.3518, y: -54.90567}
+        - {x: -45.3518, y: -93.90567}
+        - {x: 65.6482, y: -93.90567}
+        - {x: 91.6482, y: -51.90567}
+        - {x: 91.6482, y: 90.09433}
+        - {x: 80.6482, y: 95.09433}
+      - - {x: 21.648201, y: 68.09433}
+        - {x: 17.648201, y: 65.09433}
+        - {x: 18.648201, y: 62.09433}
+        - {x: 23.648201, y: 62.09433}
+        - {x: 25.648201, y: 64.09433}
+        - {x: 25.648201, y: 65.09433}
+        - {x: 22.648201, y: 68.09433}
+    - name: player_sphere_30
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 822
+        width: 402
+        height: 396
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -68.6304, y: 94.21735}
+        - {x: -73.6304, y: 55.217346}
+        - {x: -69.6304, y: 54.217346}
+        - {x: -47.6304, y: 68.21735}
+        - {x: -56.6304, y: 60.217346}
+        - {x: -84.6304, y: 47.217346}
+        - {x: -94.6304, y: 20.217346}
+        - {x: -94.6304, y: -50.782654}
+        - {x: -83.6304, y: -92.78265}
+        - {x: 72.3696, y: -92.78265}
+        - {x: 89.3696, y: -49.782654}
+        - {x: 89.3696, y: 24.217346}
+        - {x: 61.3696, y: 94.21735}
+      - - {x: 91.3696, y: 4.217346}
+        - {x: 91.3696, y: 0.21734619}
+        - {x: 93.3696, y: -1.7826538}
+        - {x: 95.3696, y: -0.7826538}
+        - {x: 95.3696, y: 4.217346}
+        - {x: 94.3696, y: 5.217346}
+      - - {x: 10.369598, y: 67.21735}
+        - {x: 11.369598, y: 64.21735}
+        - {x: 16.369598, y: 64.21735}
+        - {x: 18.369598, y: 66.21735}
+        - {x: 17.369598, y: 69.21735}
+        - {x: 12.369598, y: 69.21735}
+    - name: player_sphere_31
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 834
+        width: 386
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.252686, y: 90.84827}
+        - {x: 54.252686, y: 93.84827}
+        - {x: -60.747314, y: 93.84827}
+        - {x: -90.747314, y: 33.848267}
+        - {x: -90.747314, y: -48.151733}
+        - {x: -48.747314, y: -93.15173}
+        - {x: 31.252686, y: -93.15173}
+        - {x: 63.252686, y: -84.15173}
+        - {x: 91.252686, y: -39.151733}
+        - {x: 91.252686, y: 31.848267}
+        - {x: 89.252686, y: 46.848267}
+      - - {x: 12.252686, y: 66.84827}
+        - {x: 13.252686, y: 63.848267}
+        - {x: 17.252686, y: 63.848267}
+        - {x: 19.252686, y: 65.84827}
+        - {x: 18.252686, y: 68.84827}
+        - {x: 14.252686, y: 68.84827}
+    - name: player_sphere_32
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 829
+        width: 398
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.674377, y: 94.002045}
+        - {x: -48.325623, y: 94.002045}
+        - {x: -65.32562, y: 92.002045}
+        - {x: -91.32562, y: 44.002045}
+        - {x: -93.32562, y: 31.002045}
+        - {x: -93.32562, y: -55.997955}
+        - {x: -92.32562, y: -58.997955}
+        - {x: -41.325623, y: -93.997955}
+        - {x: 35.674377, y: -93.997955}
+        - {x: 84.67438, y: -54.997955}
+        - {x: 92.67438, y: -22.997955}
+        - {x: 92.67438, y: 47.002045}
+      - - {x: 90.67438, y: 0.0020446777}
+        - {x: 92.67438, y: -1.9979553}
+        - {x: 93.67438, y: -1.9979553}
+        - {x: 93.67438, y: 3.0020447}
+        - {x: 91.67438, y: 3.0020447}
+      - - {x: 6.6743774, y: 65.002045}
+        - {x: 8.674377, y: 63.002045}
+        - {x: 13.674377, y: 66.002045}
+        - {x: 12.674377, y: 69.002045}
+        - {x: 9.674377, y: 69.002045}
+        - {x: 6.6743774, y: 66.002045}
+    - name: player_sphere_33
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 808
+        width: 400
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.27356, y: 89.64795}
+        - {x: -28.72644, y: 89.64795}
+        - {x: -79.72644, y: 75.64795}
+        - {x: -93.72644, y: 38.64795}
+        - {x: -93.72644, y: -41.35205}
+        - {x: -82.72644, y: -77.35205}
+        - {x: -39.72644, y: -101.35205}
+        - {x: 35.27356, y: -101.35205}
+        - {x: 88.27356, y: -76.35205}
+        - {x: 94.27356, y: -42.35205}
+        - {x: 94.27356, y: 44.64795}
+      - - {x: 89.27356, y: -1.3520508}
+        - {x: 91.27356, y: -3.3520508}
+        - {x: 94.27356, y: -2.3520508}
+        - {x: 94.27356, y: 0.6479492}
+        - {x: 92.27356, y: 2.6479492}
+        - {x: 89.27356, y: 1.6479492}
+      - - {x: 1.2735596, y: 59.64795}
+        - {x: 2.2735596, y: 56.64795}
+        - {x: 5.2735596, y: 56.64795}
+        - {x: 8.27356, y: 59.64795}
+        - {x: 8.27356, y: 61.64795}
+        - {x: 5.2735596, y: 62.64795}
+    - name: player_sphere_34
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 807
+        width: 388
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.233154, y: 46.17871}
+        - {x: 66.233154, y: 40.17871}
+        - {x: 58.233154, y: 51.17871}
+        - {x: 47.233154, y: 61.17871}
+        - {x: 42.233154, y: 63.17871}
+        - {x: 40.233154, y: 63.17871}
+        - {x: 45.233154, y: 63.17871}
+        - {x: 51.233154, y: 62.17871}
+        - {x: 60.233154, y: 93.17871}
+        - {x: -81.766846, y: 93.17871}
+        - {x: -90.766846, y: 80.17871}
+        - {x: -90.766846, y: -67.82129}
+        - {x: -64.766846, y: -101.82129}
+        - {x: 92.233154, y: -101.82129}
+        - {x: 92.233154, y: 55.17871}
+        - {x: 66.233154, y: 51.17871}
+      - - {x: 5.2331543, y: 59.17871}
+        - {x: 6.2331543, y: 56.17871}
+        - {x: 9.233154, y: 56.17871}
+        - {x: 12.233154, y: 59.17871}
+        - {x: 12.233154, y: 61.17871}
+        - {x: 9.233154, y: 62.17871}
+    - name: player_sphere_36
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 815
+        width: 386
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.446655, y: 47.932648}
+        - {x: 63.446655, y: 56.932648}
+        - {x: 40.446655, y: 97.93265}
+        - {x: -11.553345, y: 100.93265}
+        - {x: -90.553345, y: 100.93265}
+        - {x: -90.553345, y: 80.93265}
+        - {x: -87.553345, y: 80.93265}
+        - {x: -90.553345, y: 69.93265}
+        - {x: -90.553345, y: -71.06735}
+        - {x: -47.553345, y: -100.06735}
+        - {x: 60.446655, y: -100.06735}
+        - {x: 86.446655, y: -75.06735}
+        - {x: 92.446655, y: -46.067352}
+        - {x: 92.446655, y: 37.932648}
+      - - {x: 1.4466553, y: 61.932648}
+        - {x: 2.4466553, y: 58.932648}
+        - {x: 6.4466553, y: 58.932648}
+        - {x: 8.446655, y: 60.932648}
+        - {x: 7.4466553, y: 63.932648}
+        - {x: 3.4466553, y: 63.932648}
+    - name: player_sphere_38
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 809
+        width: 386
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.829712, y: 54.117188}
+        - {x: 61.829712, y: 50.117188}
+        - {x: 45.829712, y: 87.11719}
+        - {x: 39.829712, y: 94.11719}
+        - {x: -81.17029, y: 94.11719}
+        - {x: -90.17029, y: 60.117188}
+        - {x: -90.17029, y: -50.882812}
+        - {x: -53.170288, y: -100.88281}
+        - {x: 39.829712, y: -100.88281}
+        - {x: 91.82971, y: -68.88281}
+        - {x: 91.82971, y: 29.117188}
+        - {x: 71.82971, y: 54.117188}
+      - - {x: 0.8297119, y: 61.117188}
+        - {x: 1.8297119, y: 58.117188}
+        - {x: 5.829712, y: 58.117188}
+        - {x: 8.829712, y: 61.117188}
+        - {x: 7.829712, y: 64.11719}
+        - {x: 4.829712, y: 64.11719}
+      - - {x: -90.17029, y: 101.11719}
+        - {x: -90.17029, y: 76.11719}
+        - {x: -87.17029, y: 77.11719}
+        - {x: -84.17029, y: 83.11719}
+        - {x: -84.17029, y: 100.11719}
+        - {x: -86.17029, y: 101.11719}
+    - name: player_sphere_39
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1065
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_40
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1076
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_41
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 1067
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_42
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1071
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_43
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1069
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_44
+      rect:
+        serializedVersion: 2
+        x: 2723
+        y: 1071
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_45
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1050
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_46
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 1048
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_47
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 1063
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_48
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1045
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_49
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1046
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_50
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 1046
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_51
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 1042
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_52
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 1046
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_53
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1026
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_54
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 993
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_55
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1013
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_56
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 991
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_57
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 990
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_58
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 997
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_59
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 997
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_60
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 996
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_61
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 991
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_62
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 986
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_63
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 990
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_64
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 289
+        width: 385
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 85.62532, y: 48.611084}
+        - {x: 79.62532, y: 99.611084}
+        - {x: -80.37468, y: 99.611084}
+        - {x: -84.37468, y: 92.611084}
+        - {x: -90.37468, y: 28.611084}
+        - {x: -90.37468, y: -69.388916}
+        - {x: -35.37468, y: -98.388916}
+        - {x: 47.62532, y: -98.388916}
+        - {x: 59.62532, y: -91.388916}
+        - {x: 91.62532, y: -45.388916}
+        - {x: 91.62532, y: 18.611084}
+      - - {x: -85.37468, y: -63.388916}
+        - {x: -82.37468, y: -62.388916}
+        - {x: -82.37468, y: -59.388916}
+        - {x: -85.37468, y: -58.388916}
+        - {x: -87.37468, y: -60.388916}
+      - - {x: 6.6253204, y: 63.611084}
+        - {x: 7.6253204, y: 60.611084}
+        - {x: 11.62532, y: 60.611084}
+        - {x: 13.62532, y: 62.611084}
+        - {x: 12.62532, y: 65.611084}
+        - {x: 8.62532, y: 65.611084}
+      - - {x: -85.37468, y: 97.611084}
+        - {x: -90.37468, y: 97.611084}
+        - {x: -90.37468, y: 71.611084}
+        - {x: -86.37468, y: 72.611084}
+        - {x: -81.37468, y: 78.611084}
+        - {x: -81.37468, y: 94.611084}
+    - name: player_sphere_68
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 299
+        width: 397
+        height: 403
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74.83884, y: 48.303513}
+        - {x: 72.83884, y: 46.303513}
+        - {x: 72.83884, y: 44.303513}
+        - {x: 61.838837, y: 85.30351}
+        - {x: 56.838837, y: 95.30351}
+        - {x: -88.16116, y: 95.30351}
+        - {x: -88.16116, y: -90.69649}
+        - {x: -58.161163, y: -94.69649}
+        - {x: 87.83884, y: -94.69649}
+        - {x: 94.83884, y: -69.69649}
+        - {x: 94.83884, y: 42.303513}
+        - {x: 79.83884, y: 49.303513}
+      - - {x: -93.16116, y: -57.696487}
+        - {x: -92.16116, y: -58.696487}
+        - {x: -89.16116, y: -57.696487}
+        - {x: -89.16116, y: -54.696487}
+        - {x: -92.16116, y: -53.696487}
+        - {x: -93.16116, y: -54.696487}
+      - - {x: 15.838837, y: 68.30351}
+        - {x: 14.838837, y: 66.30351}
+        - {x: 14.838837, y: 62.303513}
+        - {x: 21.838837, y: 62.303513}
+        - {x: 21.838837, y: 67.30351}
+        - {x: 18.838837, y: 68.30351}
+    - name: player_sphere_69
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 294
+        width: 399
+        height: 438
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 72.168274, y: 38.457306}
+        - {x: 73.168274, y: 35.457306}
+        - {x: 76.168274, y: 32.457306}
+        - {x: 74.168274, y: 31.457306}
+        - {x: 61.168274, y: 68.457306}
+        - {x: 65.168274, y: 79.457306}
+        - {x: 54.168274, y: 86.457306}
+        - {x: -46.831726, y: 86.457306}
+        - {x: -60.831726, y: 81.457306}
+        - {x: -88.831726, y: 37.457306}
+        - {x: -88.831726, y: -47.542694}
+        - {x: -64.831726, y: -96.542694}
+        - {x: -43.831726, y: -102.542694}
+        - {x: 57.168274, y: -102.542694}
+        - {x: 94.168274, y: -63.542694}
+        - {x: 94.168274, y: 24.457306}
+        - {x: 81.168274, y: 43.457306}
+      - - {x: -90.831726, y: -65.542694}
+        - {x: -90.831726, y: -62.542694}
+        - {x: -93.831726, y: -61.542694}
+        - {x: -93.831726, y: -66.542694}
+      - - {x: 15.168274, y: 58.457306}
+        - {x: 16.168274, y: 55.457306}
+        - {x: 21.168274, y: 55.457306}
+        - {x: 23.168274, y: 57.457306}
+        - {x: 22.168274, y: 60.457306}
+        - {x: 17.168274, y: 60.457306}
+      - - {x: -84.831726, y: 104.457306}
+        - {x: -90.831726, y: 98.457306}
+        - {x: -90.831726, y: 92.457306}
+        - {x: -86.831726, y: 88.457306}
+        - {x: -82.831726, y: 88.457306}
+        - {x: -76.831726, y: 91.457306}
+        - {x: -76.831726, y: 103.457306}
+        - {x: -78.831726, y: 104.457306}
+    - name: player_sphere_70
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 526
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_71
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 530
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_72
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 463
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_73
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 454
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: player_sphere_74
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 457
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

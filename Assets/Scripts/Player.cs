@@ -25,6 +25,7 @@ public class Player : MonoBehaviour {
 		public float gravityScale;
 		public float maxVelocity;
 		public GameObject gameObject;
+		public Animator animator;
 	};
 
 	public KeyCode jumpButton;
@@ -79,7 +80,12 @@ public class Player : MonoBehaviour {
 		UpdateSettings();
 		while (state == States.Solid) {
 			yield return 0;
+			settings [(int)States.Solid].animator.SetFloat ("speed", rb.velocity.magnitude);
 			float h = Input.GetAxis ("Horizontal");
+			if (h == -1)
+				transform.rotation = Quaternion.Euler (0, 180, 0);	
+			else if (h == 1)
+				transform.rotation = Quaternion.Euler (0, 0, 0);				
 			Vector3 force = Vector3.right * h * settings [(int)States.Solid].force;
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, settings [(int)States.Solid].maxVelocity);
 			rb.AddForce(force);
@@ -100,7 +106,12 @@ public class Player : MonoBehaviour {
 		UpdateSettings();
 		while (state == States.Liquid) {
 			yield return 0;
+			settings [(int)States.Liquid].animator.SetFloat ("speed", rb.velocity.magnitude);
 			float h = Input.GetAxis ("Horizontal");
+			if (h == -1)
+				transform.rotation = Quaternion.Euler (0, 180, 0);	
+			else if (h == 1)
+				transform.rotation = Quaternion.Euler (0, 0, 0);
 			Vector3 force = Vector3.right * h * settings [(int)States.Liquid].force;
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, settings [(int)States.Liquid].maxVelocity);
 			rb.AddForce(force);
@@ -119,6 +130,10 @@ public class Player : MonoBehaviour {
 		while (state == States.Gas) {
 			yield return 0;
 			float h = Input.GetAxis ("Horizontal");
+			if (h == -1)
+				transform.rotation = Quaternion.Euler (0, 180, 0);	
+			else if (h == 1)
+				transform.rotation = Quaternion.Euler (0, 0, 0);
 			Vector3 force = Vector3.right * h * settings [(int)States.Gas].force;
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, settings [(int)States.Gas].maxVelocity);
 			rb.AddForce(force);
