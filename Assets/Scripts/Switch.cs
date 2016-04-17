@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Switch : MonoBehaviour {
@@ -9,6 +9,8 @@ public class Switch : MonoBehaviour {
 	public float switchTime = 0.5f;
 	public float delay = 0.5f;
 	public float doorTime = 0.5f;
+	public AudioClip switchPress;
+	public AudioClip doorOpen;
 
 	void OnTriggerEnter2D(Collider2D other) {
 		Player p = other.GetComponentInParent<Player>();
@@ -18,6 +20,7 @@ public class Switch : MonoBehaviour {
 	}
 
 	IEnumerator PressSwitch() {
+		AudioStates.instance.Play (switchPress);
 		float counter = 0;
 		Vector3 origin = transform.position;
 		while (counter < switchTime) {
@@ -26,6 +29,7 @@ public class Switch : MonoBehaviour {
 			counter += Time.deltaTime;
 		}
 		yield return new WaitForSeconds (delay);
+		AudioStates.instance.Play (doorOpen);
 		StartCoroutine (OpenDoor());
 	}
 

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Player : MonoBehaviour {
@@ -28,6 +28,8 @@ public class Player : MonoBehaviour {
 		public Animator animator;
 	};
 
+	public AudioClip jumpClip;
+	public AudioClip deathClip;
 	public KeyCode jumpButton;
 	public float jumpPower;
 	public StateSettings[] settings;
@@ -91,6 +93,7 @@ public class Player : MonoBehaviour {
 			rb.AddForce(force);
 
 			if (grounded && Input.GetKeyDown (jumpButton)) {
+				AudioStates.instance.RandomPlay (jumpClip);
 				rb.AddForce(Vector3.up * jumpPower);
 			}
 			if (Input.GetKeyDown (settings[(int)States.Liquid].button)) {
@@ -155,6 +158,7 @@ public class Player : MonoBehaviour {
 
 	IEnumerator Dead() {
 		Camera.main.GetComponent<Follow> ().follow = false;
+		AudioStates.instance.RandomPlay (deathClip);
 		while (state == States.Dead) {
 			yield return 0;
 		}
