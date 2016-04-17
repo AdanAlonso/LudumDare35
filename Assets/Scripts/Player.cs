@@ -121,7 +121,7 @@ public class Player : MonoBehaviour {
 		while (state == States.Gas) {
 			yield return 0;
 			float h = Input.GetAxis ("Horizontal");
-			Vector3 force = Vector3.up * settings [(int)States.Gas].force + Vector3.right * h * settings [(int)States.Gas].force;
+			Vector3 force = Vector3.right * h * settings [(int)States.Gas].force;
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, settings [(int)States.Gas].maxVelocity);
 			rb.AddForce(force);
 
