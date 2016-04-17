@@ -147,8 +147,11 @@ public class Player : MonoBehaviour {
 	}
 
 	void OnCollisionStay2D(Collision2D other) {
-		if (other.transform.position.y < transform.position.y) {
-			jumping = false;
+		foreach (ContactPoint2D contact in other.contacts) {
+			if (contact.point.y < transform.position.y) {
+				jumping = false;
+				break;
+			}
 		}
 	}
 }
