@@ -12,20 +12,24 @@ public class Follow : MonoBehaviour {
 	}
 
 	public Transform target;
+	public bool follow = true;
 	public bool followX;
 	public bool followY;
 	public bool bounded;
 	public Bounds bounds;
 
 	void Update(){
-		Vector3 newPosition = target.position;
-		if (!followX) {
-			newPosition.x = 0;
+		Vector3 newPosition = transform.position;
+		if (follow) {
+			newPosition = target.position;
+			if (!followX) {
+				newPosition.x = 0;
+			}
+			if (!followY) {
+				newPosition.y = 0;
+			}
+			newPosition.z = transform.position.z;
 		}
-		if (!followY) {
-			newPosition.y = 0;
-		}
-		newPosition.z = transform.position.z;
 		if (bounded) {
 			newPosition.x = Mathf.Clamp (newPosition.x, bounds.minX, bounds.maxX);
 			newPosition.y = Mathf.Clamp (newPosition.y, bounds.minY, bounds.maxY);

@@ -12,7 +12,6 @@ public class Player : MonoBehaviour {
 	}
 	public ParticleSystem deathParticles;
 	public States state = States.Solid;
-	public AudioStates audioStates;
 
 	[System.Serializable]
 	public struct StateSettings
@@ -32,7 +31,7 @@ public class Player : MonoBehaviour {
 	public float jumpPower;
 	public StateSettings[] settings;
 
-	bool jumping = false;
+	bool grounded;
 	Rigidbody2D rb;
 
 	void Start () {
@@ -49,7 +48,7 @@ public class Player : MonoBehaviour {
 
 	void ChangeState(States newState) {
 		state = newState;
-		if ((int) newState < 3) StartCoroutine(audioStates.ChangeState (newState));
+		if ((int) newState < 3) StartCoroutine(AudioStates.instance.ChangeState (newState));
 	}
 
 	public void SetWin() {
@@ -85,8 +84,7 @@ public class Player : MonoBehaviour {
 			rb.velocity = Vector3.ClampMagnitude(rb.velocity, settings [(int)States.Solid].maxVelocity);
 			rb.AddForce(force);
 
-			if (!jumping && Input.GetKeyDown (jumpButton)) {
-				jumping = true;
+			if (grounded && Input.GetKeyDown (jumpButton)) {
 				rb.AddForce(Vector3.up * jumpPower);
 			}
 			if (Input.GetKeyDown (settings[(int)States.Liquid].button)) {
@@ -141,6 +139,7 @@ public class Player : MonoBehaviour {
 	}
 
 	IEnumerator Dead() {
+		Camera.main.GetComponent<Follow> ().follow = false;
 		while (state == States.Dead) {
 			yield return 0;
 		}
@@ -149,7 +148,16 @@ public class Player : MonoBehaviour {
 	void OnCollisionStay2D(Collision2D other) {
 		foreach (ContactPoint2D contact in other.contacts) {
 			if (contact.point.y < transform.position.y) {
-				jumping = false;
+				grounded = true;
+				break;
+			}
+		}
+	}
+
+	void OnCollisionExit2D(Collision2D other) {
+		foreach (ContactPoint2D contact in other.contacts) {
+			if (contact.point.y < transform.position.y) {
+				grounded = false;
 				break;
 			}
 		}
