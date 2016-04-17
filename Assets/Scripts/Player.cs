@@ -47,7 +47,7 @@ public class Player : MonoBehaviour {
 
 	void ChangeState(States newState) {
 		state = newState;
-		StartCoroutine(audioStates.ChangeState (newState));
+		if ((int) newState < 3) StartCoroutine(audioStates.ChangeState (newState));
 	}
 
 	void UpdateSettings() {

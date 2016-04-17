@@ -4,15 +4,14 @@ using System.Collections;
 
 public class Menu : MonoBehaviour {
 
-	public string level = "Level";
-	public string credits = "Credits";
+	public Animator animator;
 
 	public void Play() {
-		SceneManager.LoadScene(level);
+		SceneManager.LoadScene("Level");
 	}
 
-	public void Credits() {
-		SceneManager.LoadScene(credits);
+	public void Change() {
+		animator.SetTrigger ("Change");
 	}
 
 	public void Quit() {
